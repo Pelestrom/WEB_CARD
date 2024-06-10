@@ -1,0 +1,71 @@
+     body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       background-color: rgba(146, 145, 145, 0.932);
+       background: url("image/Rfid1.jpg") ;
+        background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+    
+    }
+    
+    header {
+         
+        text-align: center;
+        padding: 1em;
+    }
+    
+    #banner {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;  
+        border-radius: 8px;
+       
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+  
+
+    
+ .container-fluid, .topnav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color:rgb(225, 152, 14);
+    color: black;
+    height: 60px;
+}
+
+.topnav .active {
+    background-color: #4CAF50;
+    height: 60px;
+}
+ 

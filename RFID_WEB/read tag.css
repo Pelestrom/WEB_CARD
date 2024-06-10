@@ -1,0 +1,65 @@
+  /* html {
+            font-family: Arial;
+            display: inline-block;
+            margin: 0px auto;
+        }
+
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       background: url("image/2.jpg");
+        background-size: cover; 
+    background-repeat: repeat;  
+    background-position: center;  
+    }
+    header {
+         
+        text-align: center;
+        padding: 1em;
+    }
+  
+   
+
+        .center {
+            background: #12CD05;
+        }
+
+    
+    .container-fluid, .topnav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(165, 86, 86);
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color:rgb(225, 152, 14);
+    color: black;
+    height: 30px;
+}
+
+.topnav .active {
+    background-color: #4CAF50;
+    height: 60px;
+}
+
+		 */

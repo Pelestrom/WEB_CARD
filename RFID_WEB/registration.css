@@ -1,0 +1,88 @@
+     body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       background: url("image/23324.jpg");
+        background-size: cover; /* Cover the entire background */
+    background-repeat: repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+    
+    }
+    header {
+         
+        text-align: center;
+        padding: 1em;
+    }
+ 
+    
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #4CAF50;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+  footer {
+            white-space: nowrap; /* Empêche le texte de passer à la ligne */
+            overflow: hidden;    /* Masque le débordement de contenu */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(225, 152, 14);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        footer p {
+            display: inline-block; /* Permet au texte de défiler horizontalement */
+            animation: marquee 15s linear infinite; /* Animation pour le défilement */
+        }
+
+        @keyframes marquee {
+            from {
+                transform: translateX(100%); /* Débute en dehors de l'écran à droite */
+            }
+            to {
+                transform: translateX(-100%); /* Se termine en dehors de l'écran à gauche */
+            }
+        }
+ .container-fluid, .topnav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color:rgb(225, 152, 14);
+    color: black;
+    height: 60px;
+}
+
+.topnav .active {
+    background-color: #4CAF50;
+    height: 60px;
+}
+
+		
